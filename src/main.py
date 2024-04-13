@@ -15,8 +15,8 @@ class ChatInterface:
             AIMessage(content="Nao Esqueca de Configurar o Banco de Dados na lateral esquerda"),
             AIMessage(content="Pergunte-me qualquer coisa sobre seu banco de dados")
         ]
-        st.set_page_config(page_title="Chat With Database")
-        st.title('Chat With Database')
+        st.set_page_config(page_title="Converse com seu Banco de Dados ")
+        st.title('Converse com seu Banco de Dados')
         self.db = None
         self.db_uri = ""
         self.engine = None
@@ -29,7 +29,6 @@ class ChatInterface:
     def run(self):
         with st.sidebar:
             st.subheader("Settings")
-            st.write("Conecte com seu banco de dados")
             st.text_input("Host", value="127.0.0.1", key="Host")
             st.text_input("Port", value="3306", key="Port")
             st.text_input("User", value="user", key="User")
