@@ -1,6 +1,8 @@
 # Python Chat Natural Language to Sql
 
-### Dont forget Add Enviroments (LANGCHAIN_API_KEY, OPENAI_API_KEY) in .env
+### Dont forget Add Enviroments 
+- LANGCHAIN_API_KEY
+- OPENAI_API_KEY
 
 ## Run
 
