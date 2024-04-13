@@ -6,7 +6,6 @@ Demo: https://sql.midashub.com.br/
 ## Create Env File .env
 
 ### Add Environments variables
-- LANGCHAIN_API_KEY
 - OPENAI_API_KEY
 
 ## Run
