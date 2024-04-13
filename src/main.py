@@ -22,7 +22,8 @@ class ChatInterface:
         st.set_page_config(page_title="Converse com seu Banco de Dados ")
         st.title('Converse com seu Banco de Dados')
 
-    def init_database(self, host: str, port: str, user: str, password: str, database: str):
+    @staticmethod
+    def init_database(host: str, port: str, user: str, password: str, database: str):
         db_uri = f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}"
         engine = sqlalchemy.create_engine(db_uri)
         return SQLDatabase.from_uri(db_uri), engine
