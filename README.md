@@ -1,6 +1,8 @@
 # Python Chat Natural Language to Sql
 
-### Dont forget Add Enviroments 
+![ui](ui.png)
+
+### Dont forget Add Environments 
 - LANGCHAIN_API_KEY
 - OPENAI_API_KEY
 
@@ -11,6 +13,17 @@
 - Python
 
 
+## Create Environment
+
+```bash
+    python3 -m virtualenv venv
+```
+
+Activate Environment 
+
+```bash
+    source venv/bin/activate 
+```
 Install Dependencias
 
 ```bash
