@@ -34,7 +34,7 @@ class ChatInterface:
             st.text_input("Port", value="3306", key="Port")
             st.text_input("User", value="user", key="User")
             st.text_input("Password", type="password", value='password', key="Password")
-            st.text_input("Database", value="northwind", key="Database")
+            st.text_input("Database", value="database", key="Database")
 
             if st.button("Conectar"):
                 with st.spinner('Conectando ao banco de dados...'):
