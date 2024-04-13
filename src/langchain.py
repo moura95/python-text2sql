@@ -46,7 +46,6 @@ def get_sql_chain_with_openai(db):
 
     prompt = ChatPromptTemplate.from_template(template)
 
-    # llm = ChatOpenAI(model="gpt-4-0125-preview")
     llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
 
     def get_schema(_):

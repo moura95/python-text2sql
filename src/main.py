@@ -6,7 +6,6 @@ from langchain_core.messages import AIMessage, HumanMessage
 import sqlalchemy
 import langchain as langchain
 
-# Fix langchain core Error
 langchain.verbose = False
 langchain.debug = False
 langchain.llm_cache = False
