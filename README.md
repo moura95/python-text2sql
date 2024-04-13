@@ -1,8 +1,10 @@
 # Python Chat Natural Language to Sql
+Demo: https://sql.midashub.com.br/
 
 ![ui](ui.png)
 
 ## Create Env File .env
+
 ### Add Environments variables
 - LANGCHAIN_API_KEY
 - OPENAI_API_KEY
