@@ -2,7 +2,7 @@
 
 ![ui](ui.png)
 
-### Dont forget Add Environments 
+### Dont forget Add Environments create file .env with variables
 - LANGCHAIN_API_KEY
 - OPENAI_API_KEY
 
